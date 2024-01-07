@@ -57,3 +57,12 @@ button {
     height: 2px;
     background-color: #1a1a1a;
 }
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

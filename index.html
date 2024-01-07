@@ -10,7 +10,7 @@
 
 <div id="app">
     <div class="form-container">
-        <h2>Login or Register</h2>
+        <h2>Login</h2>
         <form id="loginForm">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -23,7 +23,9 @@
 
         <div class="separator"></div>
 
-        <form id="registerForm">
+        <p>Are you new here? <a href="#" id="toggleRegistration">Register</a></p>
+
+        <form id="registerForm" style="display: none;">
             <label for="newUsername">New Username:</label>
             <input type="text" id="newUsername" name="newUsername" required>
 
